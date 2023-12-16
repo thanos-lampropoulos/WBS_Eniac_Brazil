@@ -425,3 +425,5 @@ CASE WHEN DATEDIFF(order_delivered_carrier_date, order_purchase_timestamp) > 2 T
 	 ELSE "ok"
 END AS verdict 
 FROM orders) as t;
+
+-- this is just for testing
